@@ -59,8 +59,8 @@ Available Commands:
   version     Print the version number
 
 Flags:
-      --config string   configuration file (default "b-shopify.yaml")
-  -h, --help            help for b-shopify
+      --config string   configuration file (default "app.yaml")
+  -h, --help            help for app
   -v, --verbose         verbose output
 
 Use "app [command] --help" for more information about a command.
