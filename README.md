@@ -33,3 +33,35 @@ comm.AddService(fun() {
 // Start
 comm.Execute()
 ```
+
+### Output
+
+```console
+▓█████▄  ██▀███   ▄▄▄       ▄████▄   ▒█████  ▓█████▄ ▓█████
+▒██▀ ██▌▓██ ▒ ██▒▒████▄    ▒██▀ ▀█  ▒██▒  ██▒▒██▀ ██▌▓█   ▀
+░██   █▌▓██ ░▄█ ▒▒██  ▀█▄  ▒▓█    ▄ ▒██░  ██▒░██   █▌▒███
+░▓█▄   ▌▒██▀▀█▄  ░██▄▄▄▄██ ▒▓▓▄ ▄██▒▒██   ██░░▓█▄   ▌▒▓█  ▄
+░▒████▓ ░██▓ ▒██▒ ▓█   ▓██▒▒ ▓███▀ ░░ ████▓▒░░▒████▓ ░▒████▒
+▒▒▓  ▒ ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░░ ░▒ ▒  ░░ ▒░▒░▒░  ▒▒▓  ▒ ░░ ▒░ ░
+░ ▒  ▒   ░▒ ░ ▒░  ▒   ▒▒ ░  ░  ▒     ░ ▒ ▒░  ░ ▒  ▒  ░ ░  ░
+░ ░  ░   ░░   ░   ░   ▒   ░        ░ ░ ░ ▒   ░ ░  ░    ░
+  ░       ░           ░  ░░ ░          ░ ░     ░       ░  ░
+░                         ░                  ░
+APP - Aplication description [0.0.0]
+https://dracode.xyz
+
+Usage:
+  app [command]
+
+Available Commands:
+  help        Help about any command
+  service     Service control
+  version     Print the version number
+
+Flags:
+      --config string   configuration file (default "b-shopify.yaml")
+  -h, --help            help for b-shopify
+  -v, --verbose         verbose output
+
+Use "app [command] --help" for more information about a command.
+```
